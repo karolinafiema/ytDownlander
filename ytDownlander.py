@@ -10,6 +10,6 @@ print("Length of video in minutes: ", time)
 yd = yt.streams.get_highest_resolution()
 
 print("Downloading...")
-yd.download('D:\Yt Filmy')
+yd.download('./Yt')
 print("Download completed")
 
