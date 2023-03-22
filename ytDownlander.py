@@ -10,6 +10,6 @@ print("Length of video in minutes: ", time)
 yd = yt.streams.get_highest_resolution()
 
 print("Downloading...")
-yd.download('./Yt')
+yd.download('./Yt') # add folder
 print("Download completed")
 
